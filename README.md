@@ -1,24 +1,18 @@
-# README
+# Prototype based VueOnRails SSR
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Project made for study issues and prototype some mechanics
+```
+Install before postgresql
+git clone origin git@github.com:nordras/vueRails.git
+bundle install
+rails db:create
+rails db:migrate
+yarn
+rails vue:setup
+gem install foreman
+foreman start
+Play fun :)
+```
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Prototype for study issues using 
+https://github.com/vueonrails/vueonrails
