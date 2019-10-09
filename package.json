@@ -30,35 +30,6 @@
       "<rootDir>/node_modules/jest-serializer-vue"
     ]
   },
-  "scripts": {
-    "yarn test": "jest",
-    "yarn install": "yarn install --check-files",
-    "rails assets:precompile": "yarn install --check-files; rails assets:precompile",
-    "rails server": "rails server",
-    "webpack-dev-server": "./bin/webpack-dev-server"
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "vue"
-    ],
-    "moduleNameMapper": {
-      "^@/(.*)$": "<rootDir>/app/javascript/parts/$1"
-    },
-    "transform": {
-      "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
-      ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest"
-    },
-    "transformIgnorePatterns": [
-      "node_modules/(?!(vueonrails)/)"
-    ],
-    "testPathIgnorePatterns": [
-      "<rootDir>/config/webpack/"
-    ],
-    "snapshotSerializers": [
-      "<rootDir>/node_modules/jest-serializer-vue"
-    ]
-  },
   "dependencies": {
     "@rails/actioncable": "^6.0.0-alpha",
     "@rails/activestorage": "^6.0.0-alpha",
@@ -67,7 +38,8 @@
     "turbolinks": "^5.2.0",
     "vue": "^2.6.10",
     "vue-loader": "^15.7.1",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "vue-turbolinks": "^2.0.4"
   },
   "version": "0.1.0",
   "devDependencies": {
